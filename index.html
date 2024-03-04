@@ -35,7 +35,7 @@
 
         <article>
          <h2>Portfolio</h2>
-        <div class="size"></div>
+        <div class="size">
         <section class="picture">
             <header>Coming soon</header>
             <img src="./assets/images/coming soon.jpg" alt="Picture reading coming soon" />
@@ -60,17 +60,27 @@
 
         <section>
             <h2>Find Me</h2>
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li>
+                <li>Socials?</li>
+            </ul>
         </section>
 
         <section>
-            <h2>Contact me</h2>
+            <h2 class="text-center">Contact me</h2>
             <form>
-                <input type="text" placeholder="Name" />
-
-                <input type="text" placeholder="Email" />
-
-                <label for="message">Message Me:</label>
-                <textarea id="message" name="message" class="xlarge"></textarea>
+                <li>
+                    <label class="text-right" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                </li>
+                <li>
+                    <label class="text-right" for="email">Email:</label>
+                    <input type="text" id="email" name="user-email">
+                </li>
+                <li>
+                    <label for="message">Message Me:</label>
+                    <textarea id="message" name="message" class="xlarge"></textarea>
+                </li>
 
                 <button>Send</button>
 
