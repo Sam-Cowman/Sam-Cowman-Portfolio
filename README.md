@@ -1,6 +1,7 @@
 # Sam-Cowman-Portfolio
 
 ## Description
+This is my portfolio page for all current and future projects. 
 
 Code Highlights:
 
