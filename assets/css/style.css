@@ -29,11 +29,22 @@ nav a {
     font-weight: bold;
 }
 
-aside {
-    flex: 30%;
-    background-color: gray;
-    padding: 30px;
+main {
+    display:flex;
     flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+aside {
+    flex: 20%;
+    background-color: gray;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 200px;
+    height: 20xp;
+    border: 1px;
+    border-radius: 5px;
 }
 
 footer {
@@ -47,11 +58,7 @@ img {
     height:auto;
 }
 .about {
-    background-color: aliceblue;
-    width: 100%;
-    padding: 20px;
-    height: 200 px;
-    border: 1px solid black
+   
 }
 .products {
     flex: 4;
