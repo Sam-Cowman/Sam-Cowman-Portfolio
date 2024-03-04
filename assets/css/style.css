@@ -33,6 +33,7 @@ main {
     display:flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    
 }
 
 aside {
@@ -81,4 +82,17 @@ img {
 .xlarge {
     width: 400px;
     height: 150px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+@media screen and (max-width: 992px) {
+    header {
+        background-color:aquamarine
+    }
+    .picture {
+        width: 50%;
+    }
 }
