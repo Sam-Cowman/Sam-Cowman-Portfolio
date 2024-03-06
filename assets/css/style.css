@@ -13,7 +13,7 @@ header {
     align-items: center;
     padding: 60px;
     text-align: center;
-    background-color: #1e80ad;
+    background: linear-gradient(to right, #33a0a0, #1e80ad);
     color: white;
 }
 
@@ -29,20 +29,11 @@ nav a {
     font-weight: bold;
 }
 
-main {
-    display:flex;
-    flex-wrap: wrap;
+portolfio {
+    display: flex;
 }
-
-aside {
-    flex: 20%;
-    padding: 20px;
-    flex-wrap: wrap;
-    margin: 10px;
-    width: 200px;
-    height: 100xp;
-    border: 1px;
-    border-radius: 5px;
+h2, h3 {
+    text-align: start;
 }
 
 footer {
@@ -56,21 +47,19 @@ img {
     height:auto;
 }
 form {
-    background-color: #3c2e8d;
-    color: #fff;
+ list-style: none ;
 }
 .wider {
     width: 50%;
     flex-wrap: wrap;
 }
-.learning {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+.size {
+    flex: 4;
+  padding: 0 px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 .products {
     flex: 4;
@@ -86,9 +75,9 @@ form {
     border-width: 1px;
     border-radius: 50px;
     padding:10px;
-    flex: 0 0 300px;
+    flex: 0 0 200px;
     box-shadow:10px 10px 5px;
-    margin: 20 px;
+    margin: 0 px;
 }
 .xlarge {
     width: 400px;
@@ -96,11 +85,19 @@ form {
 }
 .text-center {
     text-align: center; 
-    background-color: #33a0a0
 }
 .float-left {
     float:inline-start;
     margin-right: 25px;
+    
+}
+.picture header {
+    border-radius: 50px 50px 0px 0px;
+  padding: 20px;
+}
+#contact-me {
+background: linear-gradient(to right,#4238a0, #33a0a0);
+color: aliceblue;
 }
 
 textarea {
