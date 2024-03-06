@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -20,62 +20,86 @@
     </header>
 
     <main>
+        <section class="hero">
+            <img src="./assets/images/Sam Cowman.jpg" class="me" alt="Picture of Sam Cowman" class="float-left" />
+            <div>
+                <h1>Sam Cowman</h1>
+                <p>Web developer</p>
+            </div>
+        </section>
         <section class="learning" id="about-me">
             <h2>About Me</h2>
-            <div class="about"></div>
-         <p>Hi my is Sam, I am currently learning to code with the Northwestern Bootcamp. My portfolio shows all the work that I have done in this bootcamp and will continue to add more work to it. But i'd love for you to get to know me a little bit more.</p>
-            <ul>
-                <img src="./assets/images/Sam Cowman.jpg" alt="Picture of Sam Cowman" class="float-left"/>
-                <h3>Fun Facts</h3>
-                    <li>I have 3 dogs at home, a husky, black lab and terrier mix.</li>
-                    <li>I have a background in mental health with reciving a degree in Social Work and Applied Behavior Analysis.</li>
-                    <li>I have a guilty pleasure of watch Bravo, housewives are my favorite.</li>
-            </ul>
-            <p>Bonus! Here are my dogs!</p>
-            <img src="./assets/images/dogs test.jpg" alt="Picture of 3 dogs" class="float-left" />
-
+            <div class="about">
+                <p>Hi my is Sam, I am currently learning to code with the Northwestern Bootcamp. My portfolio shows all
+                    the work that I have done in this bootcamp and will continue to add more work to it. But i'd love
+                    for you to get to know me a little bit more.</p>
+                <div class="fun-facts">
+                    <div>
+                        <h3>Fun Facts</h3>
+                        <ul>
+                            <li>I have 3 dogs at home, a husky, black lab and terrier mix.</li>
+                            <li>I have a background in mental health with reciving a degree in Social Work and Applied
+                                Behavior Analysis.</li>
+                            <li>I have a guilty pleasure of watch Bravo, housewives are my favorite.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Bonus! Here are my dogs!</p>
+                        <img src="./assets/images/dogs test.jpg"class="dogs" alt="Picture of 3 dogs" class="float-left" />
+                    </div>
+                </div>
+            </div>
         </section>
         <article class="wider" id="portfolio">
             <h2>Portfolio</h2>
-           <div class="size">
-           <section class="picture">
-               <header>Landing Page</header>
-               <a href="https://sam-cowman.github.io/Landing-page/"> 
-                <img src="./assets/images/landing-page-screenshot.jpg" alt="Picture of landing page" /> 
-                </a>
-           </section>
-   
-           <section class="picture">
-               <header>SEO Marketing</header>
-               <a href="https://sam-cowman.github.io/SEO-Marketing-Site/"> 
-                <img src="./assets/images/Marketing site.jpg" alt="Picture of marketing site screenshot" />
-                </a>
-           </section>
-   
-           <section class="picture">
-               <header>Coming soon</header>
-               <img src="./assets/images/coming-soon.png" alt="Picture reading coming soon" />
-           </section>
-   
-           <section class="picture">
-               <header>Coming soon</header>
-               <img src="./assets/images/coming-soon.png" alt="Picture reading coming soon" />
-           </section>
-           </div>
-           </article>
+            <div class="size">
 
+                <section class="big-picture">
+                    <h3>SEO Marketing</h3>
+                    <a href="https://sam-cowman.github.io/SEO-Marketing-Site/">
+                        <img src="./assets/images/Marketing site.jpg" class="big-img" alt="Picture of marketing site screenshot" />
+                    </a>
+                </section>
+                <div class="small-projects">
+
+                    <section class="picture">
+                        <h3>Landing Page</h3>
+                        <a href="https://sam-cowman.github.io/Landing-page/">
+                            <img src="./assets/images/landing-page-screenshot.jpg" class="small-image" alt="Picture of landing page" />
+                        </a>
+                    </section>
     
-    </main>
+                    <section class="picture">
+                        <h3>Coming soon</h3>
+                        <img src="./assets/images/coming-soon.png" class="small-image" alt="Picture reading coming soon" />
+                    </section>
+                </div>
+                <div class="small-projects">
+                    <section class="picture">
+                        <h3>Coming soon</h3>
+                        <img src="./assets/images/coming-soon.png" class="small-image" alt="Picture reading coming soon" />
+                    </section>
+                    <section class="picture">
+                        <h3>Coming soon</h3>
+                        <img src="./assets/images/coming-soon.png" class="small-image" alt="Picture reading coming soon" />
+                    </section>
+                </div>
+            </div>
+        </article>
+
+
+   
 
     <section id="contact-me">
         <h3 class="text-center">Contact me</h3>
-        <p>You can either find me on Github with my link below or you can contact me on this site.  Additional contact information below.</p>
-            <ul>
-                <li> <a href="https://github.com/">Github</a></li>
-                <li> <a href="mailto:sam.p.cowman@gmail.com">Email</a></li>
-                <li>Cell #: (630)-857-8372</li>
-            </ul>
-          
+        <p>You can either find me on Github with my link below or you can contact me on this site. Additional contact
+            information below.</p>
+        <ul>
+            <li> <a href="https://github.com/">Github</a></li>
+            <li> <a href="mailto:sam.p.cowman@gmail.com">Email</a></li>
+            <li>Cell #: (630)-857-8372</li>
+        </ul>
+
         <form>
             <li>
                 <label class="text-right" for="name">Name:</label>
@@ -94,14 +118,14 @@
 
         </form>
     </section>
+</main>
 
-  
 </body>
 
 <footer>
-<h4>
-    &copy 2024 SC Portfolio
-</h4>
+    <h4>
+        &copy 2024 SC Portfolio
+    </h4>
 </footer>
 
 </html>
