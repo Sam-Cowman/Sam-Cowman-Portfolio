@@ -13,15 +13,15 @@ header {
     align-items: center;
     padding: 60px;
     text-align: center;
-    background-color: blueviolet;
+    background-color: #1e80ad;
     color: white;
 }
 
 nav ul {
     display:flex;
     justify-content: space-between;
-    min-width: 300px;
     list-style: none;
+    min-width: 200px;
 }
 nav a {
     color:aliceblue;
@@ -36,12 +36,11 @@ main {
 
 aside {
     flex: 20%;
-    background-color: gray;
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 10px;
     width: 200px;
-    height: 20xp;
+    height: 100xp;
     border: 1px;
     border-radius: 5px;
 }
@@ -49,15 +48,29 @@ aside {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: blueviolet;
+    background-color:#1e80ad;
     color:aliceblue;
 }
 img {
-    width: 300px;
+    width: 250px;
     height:auto;
 }
-.about {
-   
+form {
+    background-color: #3c2e8d;
+    color: #fff;
+}
+.wider {
+    width: 50%;
+    flex-wrap: wrap;
+}
+.learning {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .products {
     flex: 4;
@@ -81,16 +94,26 @@ img {
     width: 400px;
     height: 150px;
 }
+.text-center {
+    text-align: center; 
+    background-color: #33a0a0
+}
+.float-left {
+    float:inline-start;
+    margin-right: 25px;
+}
 
 textarea {
     vertical-align: top;
     height: 60px;
 }
 @media screen and (max-width: 992px) {
-    header {
-        background-color:aquamarine
-    }
     .picture {
         width: 50%;
     }
 }
+@media screen and (max-width: 768px) {
+    .picture {
+      width: 100%;
+    }
+  }
