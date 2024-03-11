@@ -11,6 +11,8 @@ Code Highlights:
 * CSS variables 
 * Comments in CSS for affeting changes in HTML 
 
+Demo App [https://sam-cowman.github.io/Sam-Cowman-Portfolio/] (https://sam-cowman.github.io/Sam-Cowman-Portfolio/)
+
 
 ## Usage
 Utilize the navigation bar or scroll down to the sections in order to view my portfolio or contact me for more information. 
@@ -20,7 +22,7 @@ Utilize the navigation bar or scroll down to the sections in order to view my po
 
 
 ## Credits
-Add picture coming soon credit
+Coming-soon.png. Image Source: Northwestern Coding Boot Camp (2024) Accessed via bootcamp activity 01-HTML-Git-CSS, 22-Stu_Mini-Project. 
 
 ## License
 No License 
